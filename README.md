@@ -14,8 +14,9 @@ Static site for the New Providence Baptist Church Committee Guidelines Notebook 
 ## Assets
 
 - `assets/NPBC_Committee_Guidelines_Notebook_2026-2027.pdf` — original notebook.
-- `assets/NPBC_Committee_Guidelines_Reformatted_2026-2027.pdf` — PDF rendition of the reformatted page (regenerate by printing `guidelines.html` to PDF; print styles are included in `styles.css`).
+- `assets/NPBC_Committee_Guidelines_Reformatted_2026-2027.pdf` — PDF rendition of the reformatted page. Regenerate with `node tools/make_pdf.mjs` (Playwright) followed by `python3 tools/cream_underlay.py` (paints the full-bleed cream background; Chromium leaves page margins unpainted).
 - `assets/npbc-logo.jpeg` — church logo.
+- `assets/qr/` — high-resolution QR-code posters (2800×3720 PNG) for the landing page, the original PDF page, and the reformatted guide, styled in the palette with the logo embedded.
 
 ## Design
 

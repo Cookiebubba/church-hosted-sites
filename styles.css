@@ -438,6 +438,16 @@ section.committee tr:nth-child(even) td { background: rgba(203, 164, 107, 0.07);
   .sidebar,
   .scrim { display: none !important; }
 
+  /* The PDF is printed with zero Chromium margins (Chromium leaves its own
+     margin areas unpainted white); @page margins are used instead because the
+     page canvas background — propagated from html — paints beneath them, so
+     the cream fill covers the entire sheet. */
+  @page {
+    margin: 0.75in 0.8in;
+  }
+
+  html, body { background: var(--cream); }
+
   body { font-size: 11pt; }
 
   .doc {
