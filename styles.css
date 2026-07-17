@@ -298,6 +298,33 @@ section.committee ul ul > li::before { background: var(--pastoral-blue); }
 
 section.committee a { color: var(--heritage-burgundy); }
 
+section.committee table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6rem 0 1.2rem;
+  font-size: 1rem;
+}
+
+section.committee th,
+section.committee td {
+  border: 1px solid var(--rule);
+  padding: 0.45rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+section.committee th {
+  background: rgba(143, 166, 178, 0.18);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--heritage-green);
+}
+
+section.committee tr:nth-child(even) td { background: rgba(203, 164, 107, 0.07); }
+
 /* ---------- Landing (index) ---------- */
 .landing {
   min-height: 100dvh;
