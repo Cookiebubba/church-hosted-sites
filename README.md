@@ -1,5 +1,7 @@
 # NPBC Committee Guidelines Site
 
+<a href="https://buymeacoffee.com/brandynships"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="41"></a>
+
 Static site for the New Providence Baptist Church Committee Guidelines Notebook (2026–2027), ready to deploy on Vercel (no build step — plain HTML/CSS/JS).
 
 ## Pages
